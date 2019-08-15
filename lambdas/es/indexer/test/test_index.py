@@ -132,7 +132,7 @@ class TestIndex(TestCase):
                 'Bucket': 'test-bucket',
                 'Key': 'hello world.txt',
                 'IfMatch': '123456',
-                'Range': 'bytes=0-2000',
+                'Range': 'bytes=0-1048576',
             }
         )
 
